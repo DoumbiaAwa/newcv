@@ -1,0 +1,252 @@
+
+.container{
+/* height: 842px; */
+position: center;
+height: auto;
+width: 630px;
+left: -298px;
+top: -422px;
+border-radius: 0px;
+border: #1A1D3A solid 2px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin: 200px auto;
+
+
+}
+#left{
+
+height: 842px;
+width: 261px;
+/* left: -31px;  */
+top: 842px;
+border-radius: 0px;
+background-color:  #6370e7;
+
+}
+#circle{
+    height: 178px;
+    width: 175px;
+    margin-left: 45px;
+    top: 8px;
+    border-radius: 50% ;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+#circle img{
+    height: 178px;
+    width: 175px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+}
+.tiret{
+    margin-left: 15px;
+    height: 8.437100182018318px;
+    width: 54.957571448979316px;
+    left: 22px;
+    top: 248.58120727539062px;
+    border-radius: 0px;
+    background: linear-gradient(0deg, #32958F, #32958F),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        
+
+}
+.tiret,P{
+    color: #FFFFFF;
+}
+h1{
+    margin-left: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+text-transform: uppercase;
+color: #FFFFFF;    
+
+}
+.des{
+    margin-left: 15px;
+ height: auto;
+width: 126px;
+/* left: 21px; */
+border-radius: nullpx;
+color: white;
+}
+
+#right{
+ height: 842px;
+width: 362px;
+left: 233px;
+top: 0px;
+border-radius: 0px;
+margin-left: 15px;
+
+}
+.nom{
+    margin-left: 10px;
+    font-size: 36PX;
+    color: black;
+    text-align: center;
+}
+h2{
+    margin-left: 15px;
+    font-size: 20px;
+    color: #32958F;
+}
+h3{
+    font-size: 15px;
+    margin-left: 15px;
+}
+#right, p{
+    font-size: 15px;
+    margin-left: 2px;
+    color: black;
+}
+#m{
+    font-size: 15px;
+    margin-left: 15px;
+}
+#s{
+    font-size: 15px;
+    color: #32958F;
+    margin-left: 15px;
+}
+.text{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.niveau li{
+margin-left: 0;
+list-style-type: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+}
+.niv{
+    margin-left: 15px;
+}
+
+.etoile{
+ margin-left:10px;
+ margin-top: -1px;
+ margin-right: 270px;
+height: 10px;
+width: 10px;
+ border: 1px solid blue;
+border-radius: 10px; 
+background-color: blue;
+
+}
+
+
+.contenu-point .point-copy{
+    display: flex;
+    align-items: center;
+}
+
+.point1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+}
+
+.point2 {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    position: absolute;
+    top: 0;
+}
+.point4 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+}
+.point5 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+}
+
+.point1 .ront1 {
+    width: 10px;
+    height: 10px;
+    background-color: #32958F;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+}
+.point2 .ront2 {
+    width: 10px;
+    height: 10px;
+    background-color: #32958F;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+}
+.point1 .ront3 {
+    width: 10px;
+    height: 10px;
+    background-color: #32958F;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+}
+point1 pont4{
+    width: 10px;
+    height: 10px;
+    background-color: #32958F;
+    border-radius: 50%;
+    margin: 0 4px 0 0;
+
+}
+
+
+.container-point {
+    margin: 40px 0 0 10px;
+}
+
+.contenu-point {
+    padding: 0;
+}
+
+.point-copy {
+    margin-bottom: 10px;
+}
+
+.pont1 {
+    margin-left: 40px;
+}
+
+.pont2 {
+    margin-left: 18px;
+}
+
+.pont3{
+    margin-left: 48px;
+    
+}
+.pont4{
+    margin-left: 50px;
+}
+
+
+.point-copy {
+    margin-bottom: 10px;
+}
+@media screen and (max-widht:1499px){
+    .bloc{
+        width: 90%;
+    }
+    
+}
+
+
